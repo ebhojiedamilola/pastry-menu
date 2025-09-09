@@ -1,0 +1,98 @@
+body {
+  background-image: url(https://www.bakerpedia.com/wp-content/uploads/2020/06/Pastry_baking-processes-e1593464950587.jpg);
+  font-family: 'Lucida Sans';
+  padding: 20px;
+}
+
+h1 {
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.established {
+    font-style: italic;
+}
+
+h1, h2, p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 8%;
+    height: 8%;
+}
+
+hr {
+    height: 2px;
+    background-color: maroon;
+    border-color: brown;
+}
+
+.bottom-line {
+    margin-top: 25px;
+}
+
+h1, h2 {
+
+    font-family: 'Times New Roman', serif;
+}
+
+.item {
+    font-size: 0;
+}
+
+.item p {
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.pastry-type, .flavor {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 25%;
+}
+
+/* FOOTER */
+
+footer {
+    font-size: 14px;
+}
+
+a {
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: yellow;
+}
+
+a:hover {
+    color: yellow;
+}

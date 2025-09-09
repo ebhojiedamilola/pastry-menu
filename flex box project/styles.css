@@ -1,0 +1,148 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  align-items: center;
+  margin: 0 auto;
+  /* outline: 25px solid white; */
+  /*flex-wrap: wrap;*/
+  background-image: url(https://pbs.twimg.com/ext_tw_video_thumb/1612851139355070464/pu/img/LfKVEXYZkTPGfI3X.jpg:large) ;
+}
+
+.logo img {
+  margin-bottom: 5px;
+  display: block;
+  text-align: right;
+  /*background-color: #1dcf9f;*/
+  padding-top: 50px;
+}
+
+img {
+  border-style: none;
+  /*background-color: #1dcf9f;*/
+}
+
+.text {
+  font-family: helvetica;
+  display: flex;
+  justify-content: center;
+  /*background-color: #fff;*/
+  padding-left: 4px;
+  margin-bottom: 45px;
+  gap: 0.3rem;
+}
+
+.email {
+  font-family: helvetica;
+  font-size: 14px;
+  opacity: 7;
+  color: #29303A;
+  /*background-color: #fff;*/
+  /*margin-bottom: 10px;*/
+  border: none;*/
+}
+
+.input i {
+  margin-right: 10px;
+  color: #29303A;
+}
+
+.password {
+  font-family: helvetica;
+  font-size: 14px;
+  color: #29303A;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  /*background-color: #fff;*/
+  margin-bottom: 2px;
+}
+
+.log-in {
+  opacity: 1;
+  width: 350px;
+  height: 48px;
+  border-radius: 4px;
+  background-color: #1dcf9f;
+  /*display: inline-block;*/
+  text-align: center;
+  outline: 0;
+  font-size: 14px;
+  padding: 12px 20px;
+  padding-inline: 8px;
+  /*outline-color: #1dcf9f;*/
+  color: #fff;
+  border: none;
+  margin-top: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: space-between;
+  background-color: white;*/
+  margin: 0 auto;
+  padding-top: 1px;
+  border-radius: 4px;
+  width: 350px;
+  margin-top: 160px;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-bottom: 2rem;
+}
+
+.input {
+  font-size: 14px;
+  font-family: Helvetica;
+  color: #29303A;
+  border-radius: 4px;
+  height: 30px;
+  /*display: block;*/  
+  margin-bottom: 25px;
+  margin-top: 7px;*/
+  display: flex;
+  align-items: center;
+  border: 1px solid #1dcf9f;
+  padding: 8px;
+  background-color: #fff;
+}
+
+a {
+  color: #1dcf9f;
+  text-decoration: none;
+}
+
+.enter-password {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  /*padding: 10px;*/
+  height: 30px;
+  color: #29303A;
+}
+
+.email-address {
+  border: none;
+  outline: none;
+  font-size: 14px;
+  height: 30px;
+  color: #29303A;
+}
+
+.profile-icon {
+  padding-right: 8px;
+  padding-left: 8px;
+  height: 45%;
+}
+
+.lock-icon {
+  padding-right: 8px;
+  padding-left: 8px; 
+  height: 45%;
+}
+
+.eye-icon {
+  padding-left: 98px;
+  height: 75%;
+}
