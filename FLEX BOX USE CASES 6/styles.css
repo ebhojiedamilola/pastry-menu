@@ -1,0 +1,23 @@
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.media {
+  border: 2px dotted black;
+  display: flex;
+  align-items: flex-start;
+}
+
+.media .content {
+  flex: 3;
+  padding: 10px;
+}
+
+.image img {
+  max-width: 100px;
+}
+
+.image {
+  flex: 1;
+}
