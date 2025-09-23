@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram profile</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/48069603f1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body
+    class="body font-sans ml-4 flex flex-col flex-wrap bg-[whitesmoke] rounded-xl p-0 m-0"
+  >
+    <!-- <div class="insta-profile"> -->
+    <article
+      class="container my-8 mx-auto shadow-md rounded-2xl p-8 w-[400px] h-[380px] max-w-md mx-auto items-center bg-white"
+    >
+      <div class="profile flex flex-row">
+        <img
+          class="profile-image w-20 rounded-full h-20 outline-3 outline-pink-800 outline-offset-[0.25rem] outline-solid mb-[0.5rem] mt-5 object-cover"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk1diwVLCzXIhKLNwwITdmz8iLJ__UGI5Ofw&s"
+        />
+        <div class="profile-info">
+          <p class="name font-semibold text-lg ml-4 mt-[15px]">chibi</p>
+          <div class="followers flex ml-4 text-center gap-8">
+            <div class="others flex flex-col items-start mt-[0.5px]">
+              <p class="number font-extrabold">
+                <strong>33</strong>
+              </p>
+              <p class="label">posts</p>
+            </div>
+            <div>
+              <p class="number font-extrabold">
+                <strong>85.3k</strong>
+              </p>
+              <p class="label">followers</p>
+            </div>
+            <div>
+              <p class="number font-extrabold">
+                <strong>1.45k</strong>
+              </p>
+              <p class="label">following</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="content text-[14px] mt-[5px] ml-[-2px]">
+        <small class="small text-gray-400 text-[14px] font-medium"
+          >Community</small
+        >
+        <p class="click font-medium">
+          Click the link in my bio to make money on TikTok
+        </p>
+        <div class="location flex items-center">
+          <img
+            class="flag w-[15px] h-[13px]"
+            src="data:image/png;base64,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 "
+            alt="nigerian flag"
+          />
+          <!-- <span class="divider h-[1.7ch] w-[1.5px] bg-[#222222] scroll-ms-[0.25rem]"></span> -->
+          <span class="font-medium"> | Nashville</span>
+        </div>
+        <div class="p text-blue-700">
+          <p>@_made2move</p>
+          <p>@theegreatgiveback</p>
+          <p>syncmodels_</p>
+        </div>
+        <p class="link1 flex items-center font-extrabold pb-[0.25rem]">
+          <img
+            class="link-img w-[15px] h-[14px] pr-[0.3rem]"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtFByDK9vi-3pWyqUqVLCjf4Eblz7nYcPzw&s"
+          />linktr.ee/chibiemejue and 2 more
+        </p>
+        <p class="link2 font-extrabold pt-[0.2rem] flex">
+          <img
+            class="community w-[15px] h-[14px] pr-[0.2rem]"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJBWG9LdJUI0lpBPBneiFDImlCNZCGaFdc3Q&s"
+          />the change community
+          <span class="change text-gray-400 text-[13px] gap-[2px] font-medium"
+            >1k members</span
+          >
+        </p>
+        <div class="buttons flex gap-[0.3rem] mt-[0.6rem]">
+          <button
+            class="follow w-[85px] h-[28px] rounded-[6px] border-0 text-white bg-[#622bd7]"
+          >
+            Follow
+          </button>
+          <button
+            class="message w-[85px] h-[28px] rounded-[6px] border-0 font-bold bg-gray-300"
+          >
+            Message
+          </button>
+          <button
+            class="email w-[85px] h-[28px] rounded-[6px] border-0 font-bold bg-gray-300"
+          >
+            Email
+          </button>
+          <button
+            class="icon w-[85px] h-[28px] rounded-[6px] border-0 bg-gray-300"
+          >
+            <i class="fa-regular fa-user"></i>
+          </button>
+        </div>
+      </div>
+    </article>
+  </body>
+</html>
